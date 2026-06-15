@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A37A2522FC55C1D007106A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A37A24E2FC55C1D007106A3 /* Assets.xcassets */; };
+		7A37A2532FC55C1D007106A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A24F2FC55C1D007106A3 /* ContentView.swift */; };
+		7A37A2542FC55C1D007106A3 /* CurioKidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2502FC55C1D007106A3 /* CurioKidsApp.swift */; };
+		7A37A2562FC55C75007106A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2552FC55C71007106A3 /* Constants.swift */; };
+		7A37A25A2FC55CBD007106A3 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2592FC55CBD007106A3 /* SplashScreen.swift */; };
+		7A37A25D2FC55DA5007106A3 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A25C2FC55DA5007106A3 /* OnboardingScreen.swift */; };
+		7A37A25F2FC55E54007106A3 /* ChildProfileSetupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A25E2FC55E54007106A3 /* ChildProfileSetupScreen.swift */; };
+		7A37A2612FC55EA8007106A3 /* ParentPINSetupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2602FC55EA8007106A3 /* ParentPINSetupScreen.swift */; };
+		7A37A2642FC55F73007106A3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2632FC55F73007106A3 /* HomeScreen.swift */; };
+		7A37A2662FC55FE8007106A3 /* LearningPacksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2652FC55FE8007106A3 /* LearningPacksScreen.swift */; };
+		7A37A2682FC55FFD007106A3 /* PackDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2672FC55FFD007106A3 /* PackDetailScreen.swift */; };
+		7A37A26A2FC560A0007106A3 /* TopicDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2692FC560A0007106A3 /* TopicDetailScreen.swift */; };
+		7A37A26C2FC5614A007106A3 /* QuizModeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A26B2FC5614A007106A3 /* QuizModeScreen.swift */; };
+		7A37A26E2FC561A0007106A3 /* DrawingPracticeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A26D2FC561A0007106A3 /* DrawingPracticeScreen.swift */; };
+		7A37A2702FC56215007106A3 /* ARExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A26F2FC56215007106A3 /* ARExploreScreen.swift */; };
+		7A37A2722FC5626A007106A3 /* ParentDashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2712FC56269007106A3 /* ParentDashboardScreen.swift */; };
+		7A37A2742FC562C2007106A3 /* DailyFactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2732FC562C2007106A3 /* DailyFactScreen.swift */; };
+		7A37A2762FC56339007106A3 /* DownloadsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2752FC56339007106A3 /* DownloadsScreen.swift */; };
+		7A37A2782FC56375007106A3 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2772FC56375007106A3 /* FavoritesScreen.swift */; };
+		7A37A27A2FC56422007106A3 /* VoiceAnswerQuizScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2792FC56422007106A3 /* VoiceAnswerQuizScreen.swift */; };
+		7A37A27D2FC5649E007106A3 /* ScanLearnOCRScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A27C2FC5649E007106A3 /* ScanLearnOCRScreen.swift */; };
+		7A37A27F2FC564FF007106A3 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A27E2FC564FF007106A3 /* SettingsScreen.swift */; };
+		7A37A2812FC565F0007106A3 /* DailyReminderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2802FC565F0007106A3 /* DailyReminderScreen.swift */; };
+		7A37A2832FC56660007106A3 /* ScreenTimeLimitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2822FC56660007106A3 /* ScreenTimeLimitScreen.swift */; };
+		7A37A2852FC56702007106A3 /* ResetProgressScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2842FC56702007106A3 /* ResetProgressScreen.swift */; };
+		7A37A2872FC56740007106A3 /* ImageLearningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2862FC56740007106A3 /* ImageLearningScreen.swift */; };
+		7A37A2892FC5678C007106A3 /* SearchLessonsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2882FC5678C007106A3 /* SearchLessonsScreen.swift */; };
+		7A37A28B2FC567D8007106A3 /* AchievementsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A28A2FC567D8007106A3 /* AchievementsScreen.swift */; };
+		7A37A2902FC5D479007106A3 /* ReadAloudScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A28F2FC5D479007106A3 /* ReadAloudScreen.swift */; };
+		7A37A2922FC5D5F8007106A3 /* ParentLockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37A2912FC5D5F8007106A3 /* ParentLockScreen.swift */; };
+		7ADA54762FC6982B00AF11B1 /* ColoringBookScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA54752FC6982B00AF11B1 /* ColoringBookScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A37A2402FC55C0F007106A3 /* CurioKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurioKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A37A24E2FC55C1D007106A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A37A24F2FC55C1D007106A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A37A2502FC55C1D007106A3 /* CurioKidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurioKidsApp.swift; sourceTree = "<group>"; };
+		7A37A2552FC55C71007106A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A37A2592FC55CBD007106A3 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		7A37A25C2FC55DA5007106A3 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		7A37A25E2FC55E54007106A3 /* ChildProfileSetupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfileSetupScreen.swift; sourceTree = "<group>"; };
+		7A37A2602FC55EA8007106A3 /* ParentPINSetupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentPINSetupScreen.swift; sourceTree = "<group>"; };
+		7A37A2632FC55F73007106A3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		7A37A2652FC55FE8007106A3 /* LearningPacksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPacksScreen.swift; sourceTree = "<group>"; };
+		7A37A2672FC55FFD007106A3 /* PackDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackDetailScreen.swift; sourceTree = "<group>"; };
+		7A37A2692FC560A0007106A3 /* TopicDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDetailScreen.swift; sourceTree = "<group>"; };
+		7A37A26B2FC5614A007106A3 /* QuizModeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModeScreen.swift; sourceTree = "<group>"; };
+		7A37A26D2FC561A0007106A3 /* DrawingPracticeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPracticeScreen.swift; sourceTree = "<group>"; };
+		7A37A26F2FC56215007106A3 /* ARExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExploreScreen.swift; sourceTree = "<group>"; };
+		7A37A2712FC56269007106A3 /* ParentDashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDashboardScreen.swift; sourceTree = "<group>"; };
+		7A37A2732FC562C2007106A3 /* DailyFactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactScreen.swift; sourceTree = "<group>"; };
+		7A37A2752FC56339007106A3 /* DownloadsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsScreen.swift; sourceTree = "<group>"; };
+		7A37A2772FC56375007106A3 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
+		7A37A2792FC56422007106A3 /* VoiceAnswerQuizScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAnswerQuizScreen.swift; sourceTree = "<group>"; };
+		7A37A27B2FC5648D007106A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7A37A27C2FC5649E007106A3 /* ScanLearnOCRScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanLearnOCRScreen.swift; sourceTree = "<group>"; };
+		7A37A27E2FC564FF007106A3 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		7A37A2802FC565F0007106A3 /* DailyReminderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReminderScreen.swift; sourceTree = "<group>"; };
+		7A37A2822FC56660007106A3 /* ScreenTimeLimitScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeLimitScreen.swift; sourceTree = "<group>"; };
+		7A37A2842FC56702007106A3 /* ResetProgressScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetProgressScreen.swift; sourceTree = "<group>"; };
+		7A37A2862FC56740007106A3 /* ImageLearningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLearningScreen.swift; sourceTree = "<group>"; };
+		7A37A2882FC5678C007106A3 /* SearchLessonsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLessonsScreen.swift; sourceTree = "<group>"; };
+		7A37A28A2FC567D8007106A3 /* AchievementsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsScreen.swift; sourceTree = "<group>"; };
+		7A37A28F2FC5D479007106A3 /* ReadAloudScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadAloudScreen.swift; sourceTree = "<group>"; };
+		7A37A2912FC5D5F8007106A3 /* ParentLockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentLockScreen.swift; sourceTree = "<group>"; };
+		7ADA54752FC6982B00AF11B1 /* ColoringBookScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringBookScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A37A23D2FC55C0F007106A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A37A2372FC55C0F007106A3 = {
+			isa = PBXGroup;
+			children = (
+				7A37A2512FC55C1D007106A3 /* CurioKids */,
+				7A37A2412FC55C0F007106A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A37A2412FC55C0F007106A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A37A2402FC55C0F007106A3 /* CurioKids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A37A2512FC55C1D007106A3 /* CurioKids */ = {
+			isa = PBXGroup;
+			children = (
+				7A37A28C2FC56978007106A3 /* Other */,
+				7A37A27B2FC5648D007106A3 /* Info.plist */,
+				7A37A2572FC55CA3007106A3 /* screen */,
+				7A37A2552FC55C71007106A3 /* Constants.swift */,
+				7A37A24E2FC55C1D007106A3 /* Assets.xcassets */,
+				7A37A24F2FC55C1D007106A3 /* ContentView.swift */,
+				7A37A2502FC55C1D007106A3 /* CurioKidsApp.swift */,
+			);
+			path = CurioKids;
+			sourceTree = "<group>";
+		};
+		7A37A2572FC55CA3007106A3 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				7A37A2622FC55F6E007106A3 /* Home */,
+				7A37A25B2FC55D96007106A3 /* Onboarding */,
+				7A37A2582FC55CAE007106A3 /* Splash */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		7A37A2582FC55CAE007106A3 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				7A37A2592FC55CBD007106A3 /* SplashScreen.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		7A37A25B2FC55D96007106A3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7A37A2602FC55EA8007106A3 /* ParentPINSetupScreen.swift */,
+				7A37A25E2FC55E54007106A3 /* ChildProfileSetupScreen.swift */,
+				7A37A25C2FC55DA5007106A3 /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7A37A2622FC55F6E007106A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A37A2632FC55F73007106A3 /* HomeScreen.swift */,
+				7A37A2652FC55FE8007106A3 /* LearningPacksScreen.swift */,
+				7ADA54752FC6982B00AF11B1 /* ColoringBookScreen.swift */,
+				7A37A2912FC5D5F8007106A3 /* ParentLockScreen.swift */,
+				7A37A2672FC55FFD007106A3 /* PackDetailScreen.swift */,
+				7A37A28F2FC5D479007106A3 /* ReadAloudScreen.swift */,
+				7A37A2692FC560A0007106A3 /* TopicDetailScreen.swift */,
+				7A37A26B2FC5614A007106A3 /* QuizModeScreen.swift */,
+				7A37A26D2FC561A0007106A3 /* DrawingPracticeScreen.swift */,
+				7A37A26F2FC56215007106A3 /* ARExploreScreen.swift */,
+				7A37A2712FC56269007106A3 /* ParentDashboardScreen.swift */,
+				7A37A2732FC562C2007106A3 /* DailyFactScreen.swift */,
+				7A37A2752FC56339007106A3 /* DownloadsScreen.swift */,
+				7A37A2772FC56375007106A3 /* FavoritesScreen.swift */,
+				7A37A2792FC56422007106A3 /* VoiceAnswerQuizScreen.swift */,
+				7A37A27C2FC5649E007106A3 /* ScanLearnOCRScreen.swift */,
+				7A37A27E2FC564FF007106A3 /* SettingsScreen.swift */,
+				7A37A2802FC565F0007106A3 /* DailyReminderScreen.swift */,
+				7A37A2822FC56660007106A3 /* ScreenTimeLimitScreen.swift */,
+				7A37A2842FC56702007106A3 /* ResetProgressScreen.swift */,
+				7A37A2862FC56740007106A3 /* ImageLearningScreen.swift */,
+				7A37A2882FC5678C007106A3 /* SearchLessonsScreen.swift */,
+				7A37A28A2FC567D8007106A3 /* AchievementsScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A37A28C2FC56978007106A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A37A23F2FC55C0F007106A3 /* CurioKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A37A24B2FC55C11007106A3 /* Build configuration list for PBXNativeTarget "CurioKids" */;
+			buildPhases = (
+				7A37A23C2FC55C0F007106A3 /* Sources */,
+				7A37A23D2FC55C0F007106A3 /* Frameworks */,
+				7A37A23E2FC55C0F007106A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurioKids;
+			packageProductDependencies = (
+			);
+			productName = CurioKids;
+			productReference = 7A37A2402FC55C0F007106A3 /* CurioKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A37A2382FC55C0F007106A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					7A37A23F2FC55C0F007106A3 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 7A37A23B2FC55C0F007106A3 /* Build configuration list for PBXProject "CurioKids" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A37A2372FC55C0F007106A3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7A37A2412FC55C0F007106A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A37A23F2FC55C0F007106A3 /* CurioKids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A37A23E2FC55C0F007106A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A37A2522FC55C1D007106A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A37A23C2FC55C0F007106A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A37A26A2FC560A0007106A3 /* TopicDetailScreen.swift in Sources */,
+				7A37A27F2FC564FF007106A3 /* SettingsScreen.swift in Sources */,
+				7A37A2782FC56375007106A3 /* FavoritesScreen.swift in Sources */,
+				7A37A2832FC56660007106A3 /* ScreenTimeLimitScreen.swift in Sources */,
+				7A37A2812FC565F0007106A3 /* DailyReminderScreen.swift in Sources */,
+				7A37A2742FC562C2007106A3 /* DailyFactScreen.swift in Sources */,
+				7A37A2872FC56740007106A3 /* ImageLearningScreen.swift in Sources */,
+				7A37A28B2FC567D8007106A3 /* AchievementsScreen.swift in Sources */,
+				7A37A2612FC55EA8007106A3 /* ParentPINSetupScreen.swift in Sources */,
+				7A37A25D2FC55DA5007106A3 /* OnboardingScreen.swift in Sources */,
+				7A37A2922FC5D5F8007106A3 /* ParentLockScreen.swift in Sources */,
+				7A37A25A2FC55CBD007106A3 /* SplashScreen.swift in Sources */,
+				7A37A2662FC55FE8007106A3 /* LearningPacksScreen.swift in Sources */,
+				7A37A2762FC56339007106A3 /* DownloadsScreen.swift in Sources */,
+				7A37A27A2FC56422007106A3 /* VoiceAnswerQuizScreen.swift in Sources */,
+				7A37A26C2FC5614A007106A3 /* QuizModeScreen.swift in Sources */,
+				7A37A27D2FC5649E007106A3 /* ScanLearnOCRScreen.swift in Sources */,
+				7ADA54762FC6982B00AF11B1 /* ColoringBookScreen.swift in Sources */,
+				7A37A25F2FC55E54007106A3 /* ChildProfileSetupScreen.swift in Sources */,
+				7A37A2642FC55F73007106A3 /* HomeScreen.swift in Sources */,
+				7A37A2702FC56215007106A3 /* ARExploreScreen.swift in Sources */,
+				7A37A2532FC55C1D007106A3 /* ContentView.swift in Sources */,
+				7A37A26E2FC561A0007106A3 /* DrawingPracticeScreen.swift in Sources */,
+				7A37A2722FC5626A007106A3 /* ParentDashboardScreen.swift in Sources */,
+				7A37A2892FC5678C007106A3 /* SearchLessonsScreen.swift in Sources */,
+				7A37A2852FC56702007106A3 /* ResetProgressScreen.swift in Sources */,
+				7A37A2542FC55C1D007106A3 /* CurioKidsApp.swift in Sources */,
+				7A37A2902FC5D479007106A3 /* ReadAloudScreen.swift in Sources */,
+				7A37A2562FC55C75007106A3 /* Constants.swift in Sources */,
+				7A37A2682FC55FFD007106A3 /* PackDetailScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A37A2492FC55C11007106A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A37A24A2FC55C11007106A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A37A24C2FC55C11007106A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurioKids/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CurioKids uses the camera to show learning objects in your room using AR.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "CurioKids uses the microphone so children can answer quiz questions by voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "CurioKids uses speech recognition to understand spoken quiz answers.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kiritgareja.CurioKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A37A24D2FC55C11007106A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurioKids/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CurioKids uses the camera to show learning objects in your room using AR.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "CurioKids uses the microphone so children can answer quiz questions by voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "CurioKids uses speech recognition to understand spoken quiz answers.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kiritgareja.CurioKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A37A23B2FC55C0F007106A3 /* Build configuration list for PBXProject "CurioKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A37A2492FC55C11007106A3 /* Debug */,
+				7A37A24A2FC55C11007106A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A37A24B2FC55C11007106A3 /* Build configuration list for PBXNativeTarget "CurioKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A37A24C2FC55C11007106A3 /* Debug */,
+				7A37A24D2FC55C11007106A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A37A2382FC55C0F007106A3 /* Project object */;
+}
